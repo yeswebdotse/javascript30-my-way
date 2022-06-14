@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Way Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">Ha-ha-haha</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Hhh-hiha</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Kh-h-heheah</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Y-he-he-hes</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">Hhhha-ha-ha</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="A-laugh.wav"></audio>
+    <audio data-key="83" src="S-laugh.wav"></audio>
+    <audio data-key="68" src="D-laugh.wav"></audio>
+    <audio data-key="70" src="F-laugh.wav"></audio>
+    <audio data-key="71" src="G-laugh.wav"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
