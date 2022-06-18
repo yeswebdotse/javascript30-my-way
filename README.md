@@ -12,4 +12,4 @@ Grab the REAL course at Wes the Boss's free downloadsite: [https://JavaScript30.
 ##  My way #JavaScript30 Content will soon be posted here!
 
 The first project is out:
-![]https://github.com/yeswebdotse/javascript30-my-way
+https://github.com/yeswebdotse/javascript30-my-way
